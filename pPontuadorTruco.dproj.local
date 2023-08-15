@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/08/15 19:16:43.494,=C:\Users\aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/15 20:27:57.432,C:\Users\aluno\Documents\joaoS\Aula Douglas\uPontuadorTruco.dfm=C:\Users\aluno\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/08/15 20:27:57.432,C:\Users\aluno\Documents\joaoS\Aula Douglas\uPontuadorTruco.pas=C:\Users\aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/15 20:28:04.068,C:\Users\aluno\Documents\joaoS\Aula Douglas\pPontuadorTruco.dproj=C:\Users\aluno\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
