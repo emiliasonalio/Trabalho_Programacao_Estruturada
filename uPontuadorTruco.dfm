@@ -2,8 +2,8 @@ object PontuadorTruco: TPontuadorTruco
   Left = 0
   Top = 0
   Caption = 'PontuadorTruco'
-  ClientHeight = 442
-  ClientWidth = 628
+  ClientHeight = 458
+  ClientWidth = 615
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -43,6 +43,12 @@ object PontuadorTruco: TPontuadorTruco
     Height = 73
     AutoSize = False
   end
+  object LblMelhorDeTres: TLabel
+    Left = 264
+    Top = 56
+    Width = 97
+    Height = 57
+  end
   object EdtNomeTime1: TEdit
     Left = 56
     Top = 104
@@ -59,7 +65,7 @@ object PontuadorTruco: TPontuadorTruco
   end
   object BtnAdicionaPonto1: TButton
     Left = 56
-    Top = 280
+    Top = 272
     Width = 121
     Height = 25
     Caption = '+'
@@ -68,7 +74,7 @@ object PontuadorTruco: TPontuadorTruco
   end
   object BtnAdicionaPonto2: TButton
     Left = 440
-    Top = 280
+    Top = 272
     Width = 121
     Height = 25
     Caption = '+'
@@ -77,7 +83,7 @@ object PontuadorTruco: TPontuadorTruco
   end
   object BtnTruco: TButton
     Left = 160
-    Top = 376
+    Top = 342
     Width = 289
     Height = 49
     Caption = 'Truco!'
@@ -86,7 +92,7 @@ object PontuadorTruco: TPontuadorTruco
   end
   object BtnDiminuirPonto2: TButton
     Left = 440
-    Top = 311
+    Top = 303
     Width = 121
     Height = 25
     Caption = '-'
@@ -95,11 +101,20 @@ object PontuadorTruco: TPontuadorTruco
   end
   object BtnDiminuiPontoTime1: TButton
     Left = 56
-    Top = 311
+    Top = 303
     Width = 121
     Height = 25
     Caption = '-'
     TabOrder = 6
     OnClick = BtnDiminuiPontoTime1Click
+  end
+  object BtnMelhorDeTres: TButton
+    Left = 240
+    Top = 409
+    Width = 121
+    Height = 25
+    Caption = 'Melhor de tr'#234's!'
+    TabOrder = 7
+    OnClick = BtnMelhorDeTresClick
   end
 end
