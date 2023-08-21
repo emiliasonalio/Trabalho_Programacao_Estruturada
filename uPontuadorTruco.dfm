@@ -34,13 +34,35 @@ object PontuadorTruco: TPontuadorTruco
     Top = 176
     Width = 121
     Height = 73
+    Alignment = taCenter
     AutoSize = False
+    Caption = '0'
+    Layout = tlCenter
   end
   object LblPontoTime1: TLabel
     Left = 56
     Top = 176
     Width = 121
     Height = 73
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '0'
+    Layout = tlCenter
+  end
+  object LblPontuacaoAtual: TLabel
+    Left = 480
+    Top = 376
+    Width = 105
+    Height = 49
+    Alignment = taCenter
+    AutoSize = False
+    Layout = tlCenter
+  end
+  object LblMelhorDeTres: TLabel
+    Left = 296
+    Top = 56
+    Width = 34
+    Height = 15
     AutoSize = False
   end
   object EdtNomeTime1: TEdit
@@ -101,5 +123,14 @@ object PontuadorTruco: TPontuadorTruco
     Caption = '-'
     TabOrder = 6
     OnClick = BtnDiminuiPontoTime1Click
+  end
+  object BtnMelhorde3: TButton
+    Left = 264
+    Top = 8
+    Width = 89
+    Height = 25
+    Caption = 'Melhor de 3!!'
+    TabOrder = 7
+    OnClick = BtnMelhorde3Click
   end
 end
